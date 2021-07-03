@@ -1,7 +1,7 @@
 job('nodeJS example')
     scm {
         git('git://github.com/pvenkat1967/Jenkins.git') { node ->
-            node / gitConfigName('DSL User')
+            node / gitConfigName('venkat')
             node / gitConfigEmail('pvenkat1967@gmail.com')
         }
     }
